@@ -22,14 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E45255216C0E4B100EDF19D /* cameraOrientationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraOrientationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E45255216C0E4B100EDF19D /* CameraSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E45255616C0E4B100EDF19D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5E45255816C0E4B100EDF19D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E45255A16C0E4B100EDF19D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5E45255E16C0E4B200EDF19D /* cameraOrientationSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cameraOrientationSample-Info.plist"; sourceTree = "<group>"; };
+		5E45255E16C0E4B200EDF19D /* CameraSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraSample-Info.plist"; sourceTree = "<group>"; };
 		5E45256016C0E4B200EDF19D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E45256216C0E4B200EDF19D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5E45256416C0E4B200EDF19D /* cameraOrientationSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cameraOrientationSample-Prefix.pch"; sourceTree = "<group>"; };
+		5E45256416C0E4B200EDF19D /* CameraSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraSample-Prefix.pch"; sourceTree = "<group>"; };
 		5E45256516C0E4B200EDF19D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E45256616C0E4B200EDF19D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5E45256816C0E4B200EDF19D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		5E45255316C0E4B100EDF19D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E45255216C0E4B100EDF19D /* cameraOrientationSample.app */,
+				5E45255216C0E4B100EDF19D /* CameraSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +99,10 @@
 		5E45255D16C0E4B200EDF19D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E45255E16C0E4B200EDF19D /* cameraOrientationSample-Info.plist */,
+				5E45255E16C0E4B200EDF19D /* CameraSample-Info.plist */,
 				5E45255F16C0E4B200EDF19D /* InfoPlist.strings */,
 				5E45256216C0E4B200EDF19D /* main.m */,
-				5E45256416C0E4B200EDF19D /* cameraOrientationSample-Prefix.pch */,
+				5E45256416C0E4B200EDF19D /* CameraSample-Prefix.pch */,
 				5E45256816C0E4B200EDF19D /* Default.png */,
 				5E45256A16C0E4B200EDF19D /* Default@2x.png */,
 				5E45256C16C0E4B200EDF19D /* Default-568h@2x.png */,
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E45255116C0E4B100EDF19D /* cameraOrientationSample */ = {
+		5E45255116C0E4B100EDF19D /* CameraSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E45257616C0E4B200EDF19D /* Build configuration list for PBXNativeTarget "cameraOrientationSample" */;
+			buildConfigurationList = 5E45257616C0E4B200EDF19D /* Build configuration list for PBXNativeTarget "CameraSample" */;
 			buildPhases = (
 				5E45254E16C0E4B100EDF19D /* Sources */,
 				5E45254F16C0E4B100EDF19D /* Frameworks */,
@@ -125,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = cameraOrientationSample;
+			name = CameraSample;
 			productName = cameraOrientationSample;
-			productReference = 5E45255216C0E4B100EDF19D /* cameraOrientationSample.app */;
+			productReference = 5E45255216C0E4B100EDF19D /* CameraSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = dwango;
 			};
-			buildConfigurationList = 5E45254C16C0E4B100EDF19D /* Build configuration list for PBXProject "cameraOrientationSample" */;
+			buildConfigurationList = 5E45254C16C0E4B100EDF19D /* Build configuration list for PBXProject "CameraSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E45255116C0E4B100EDF19D /* cameraOrientationSample */,
+				5E45255116C0E4B100EDF19D /* CameraSample */,
 			);
 		};
 /* End PBXProject section */
@@ -259,9 +259,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "cameraOrientationSample/cameraOrientationSample-Prefix.pch";
-				INFOPLIST_FILE = "cameraOrientationSample/cameraOrientationSample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "cameraOrientationSample/CameraSample-Prefix.pch";
+				INFOPLIST_FILE = "cameraOrientationSample/CameraSample-Info.plist";
+				PRODUCT_NAME = CameraSample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,9 +270,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "cameraOrientationSample/cameraOrientationSample-Prefix.pch";
-				INFOPLIST_FILE = "cameraOrientationSample/cameraOrientationSample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "cameraOrientationSample/CameraSample-Prefix.pch";
+				INFOPLIST_FILE = "cameraOrientationSample/CameraSample-Info.plist";
+				PRODUCT_NAME = CameraSample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,7 +280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E45254C16C0E4B100EDF19D /* Build configuration list for PBXProject "cameraOrientationSample" */ = {
+		5E45254C16C0E4B100EDF19D /* Build configuration list for PBXProject "CameraSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E45257416C0E4B200EDF19D /* Debug */,
@@ -289,13 +289,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E45257616C0E4B200EDF19D /* Build configuration list for PBXNativeTarget "cameraOrientationSample" */ = {
+		5E45257616C0E4B200EDF19D /* Build configuration list for PBXNativeTarget "CameraSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E45257716C0E4B200EDF19D /* Debug */,
 				5E45257816C0E4B200EDF19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
