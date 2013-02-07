@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E12802616C248AE00DB74E4 /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E12802516C248AE00DB74E4 /* CameraController.m */; };
+		5E12802A16C248E600DB74E4 /* CameraOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E12802916C248E600DB74E4 /* CameraOverlayViewController.m */; };
+		5E12802D16C24F6700DB74E4 /* SubImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E12802C16C24F6700DB74E4 /* SubImagePickerViewController.m */; };
 		5E45255716C0E4B100EDF19D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E45255616C0E4B100EDF19D /* UIKit.framework */; };
 		5E45255916C0E4B100EDF19D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E45255816C0E4B100EDF19D /* Foundation.framework */; };
 		5E45255B16C0E4B100EDF19D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E45255A16C0E4B100EDF19D /* CoreGraphics.framework */; };
@@ -22,6 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E12802416C248AE00DB74E4 /* CameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		5E12802516C248AE00DB74E4 /* CameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
+		5E12802816C248E600DB74E4 /* CameraOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlayViewController.h; sourceTree = "<group>"; };
+		5E12802916C248E600DB74E4 /* CameraOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraOverlayViewController.m; sourceTree = "<group>"; };
+		5E12802B16C24F6700DB74E4 /* SubImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubImagePickerViewController.h; sourceTree = "<group>"; };
+		5E12802C16C24F6700DB74E4 /* SubImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubImagePickerViewController.m; sourceTree = "<group>"; };
 		5E45255216C0E4B100EDF19D /* CameraSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E45255616C0E4B100EDF19D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5E45255816C0E4B100EDF19D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +100,12 @@
 				5E45256E16C0E4B200EDF19D /* MainStoryboard.storyboard */,
 				5E45257116C0E4B200EDF19D /* ViewController.h */,
 				5E45257216C0E4B200EDF19D /* ViewController.m */,
+				5E12802416C248AE00DB74E4 /* CameraController.h */,
+				5E12802516C248AE00DB74E4 /* CameraController.m */,
+				5E12802816C248E600DB74E4 /* CameraOverlayViewController.h */,
+				5E12802916C248E600DB74E4 /* CameraOverlayViewController.m */,
+				5E12802B16C24F6700DB74E4 /* SubImagePickerViewController.h */,
+				5E12802C16C24F6700DB74E4 /* SubImagePickerViewController.m */,
 				5E45255D16C0E4B200EDF19D /* Supporting Files */,
 			);
 			path = cameraOrientationSample;
@@ -180,6 +195,9 @@
 				5E45256316C0E4B200EDF19D /* main.m in Sources */,
 				5E45256716C0E4B200EDF19D /* AppDelegate.m in Sources */,
 				5E45257316C0E4B200EDF19D /* ViewController.m in Sources */,
+				5E12802616C248AE00DB74E4 /* CameraController.m in Sources */,
+				5E12802A16C248E600DB74E4 /* CameraOverlayViewController.m in Sources */,
+				5E12802D16C24F6700DB74E4 /* SubImagePickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +232,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -229,6 +248,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -242,6 +262,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -250,6 +271,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -258,10 +280,12 @@
 		5E45257716C0E4B200EDF19D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cameraOrientationSample/CameraSample-Prefix.pch";
 				INFOPLIST_FILE = "cameraOrientationSample/CameraSample-Info.plist";
 				PRODUCT_NAME = CameraSample;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -269,10 +293,12 @@
 		5E45257816C0E4B200EDF19D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cameraOrientationSample/CameraSample-Prefix.pch";
 				INFOPLIST_FILE = "cameraOrientationSample/CameraSample-Info.plist";
 				PRODUCT_NAME = CameraSample;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
