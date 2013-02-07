@@ -15,7 +15,7 @@
 
 @interface CameraOverlayViewController : UIViewController
 
-#warning 本来はweakにすべき箇所
+#warning 問題ポイント1 本来はweakにすべき箇所
 @property /*(weak)*/ id<CameraOverlayViewControllerDelegate> delegate;
 
 @end

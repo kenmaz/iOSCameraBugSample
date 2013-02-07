@@ -22,7 +22,8 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    _cameraController = [[CameraController alloc] init];  //この行をviewDidLoadに移動すればバグは回避できるけど
+#warning 問題ポイント2 本来はviewDidLoadあたりに移動すべき
+    _cameraController = [[CameraController alloc] init];
     
     AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
     self.imageView.image = appDelegate.currentImage;
